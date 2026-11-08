@@ -1,0 +1,13 @@
+[package]
+name = "neon-sentinel-agent"
+version = "0.1.0"
+edition = "2024"
+description = "NEON SENTINEL Windows lab agent: registration and heartbeat"
+
+[dependencies]
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+rusqlite = { version = "0.32", features = ["bundled"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1", features = ["v4"] }

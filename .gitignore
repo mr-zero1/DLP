@@ -1,0 +1,75 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# ===== Python =====
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+
+# ===== Rust =====
+target/
+**/target/
+
+# ===== Databases =====
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ===== Secrets & Credentials =====
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+api-token
+api-token.txt
+secrets.json
+credentials.json
+config.local.*
+*.secret
+
+# ===== Logs & Temporary Files =====
+*.log
+*.tmp
+*.bak
+*.swp
+.cache/
+tmp/
+temp/
+
+# ===== Build & Generated Files =====
+build/
+dist/
+*.exe
+*.dll
+*.o
+*.obj
+*.zip
+*.7z
+*.tar.gz
+
+# ===== Local Editor Settings =====
+.vscode/
+.idea/
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
